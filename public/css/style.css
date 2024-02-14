@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  /* font-family: "Poppins", sans-serif !important; */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+.navbar {
+  height: 4rem;
+  background-color: white;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.fa-airbnb {
+  color: #fe424d;
+  font-size: 2rem;
+  font-weight: 600 !important;
+}
+
+.nav-link {
+  color: #222222 !important;
+  font-weight: 500 !important;
+  font-size: 1.2rem;
+}
+
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+}
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info {
+  display: flex;
+  height: 8rem;
+  background-color: #ebebeb;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+  width: 100%;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+.f-info-socials a {
+  color: #222222;
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+
+.f-info-socials a i {
+}
+
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem;
+}
+
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  padding-top: 10px;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.card-text p {
+  font-weight: 400 !important;
+}
+.card a {
+  color: #222222;
+}
+
+.listing-link {
+  text-decoration: none;
+}
+
+.card-img-overlay {
+  opacity: 1;
+}
+
+/* .card-img-overlay:hover {
+  opacity: 0.2 !important;
+  background-color: black;
+} */
+
+.card:hover {
+  opacity: 0.8;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+.card {
+  margin-left: 10px;
+}
+/* show  */
+
+.show-image {
+  height: 30vh;
+}
+
+.btns {
+  display: flex;
+}
+
+/* map */
+#map {
+  height: 400px;
+  width: 100vh;
+}
+
+.show {
+  margin: 10px;
+}
+
+.show map {
+  width: 100%;
+}
+
+.search-box .row {
+  display: flex;
+  flex-direction: column;
+}
+
+.match button {
+  text-align: center;
+  align-items: center;
+}
+
+/* .result-box ul {
+  border-top: 1px solid #999;
+  padding: 15px 10px;
+  margin-top: 80px;
+}
+
+.result-box ul li {
+  list-style: none;
+  border-radius: 3px;
+  padding: 9px 10px;
+  cursor: pointer;
+  background-color: #e9f3ff;
+  height: 100%;
+  margin-top: 2px;
+}
+
+.result-box ul li:hover {
+  background-color: #e9f3ff;
+}
+
+.d-flex input {
+  flex: 1;
+  height: 50px;
+} */
