@@ -93,6 +93,11 @@ body {
   color: #222222;
 }
 
+.rowcard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
 .listing-link {
   text-decoration: none;
 }
